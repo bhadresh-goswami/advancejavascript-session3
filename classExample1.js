@@ -13,5 +13,5 @@ function userClass(){
 }
 
 var user1 = new userClass();
-user1.saveData("bhadresh gosai",".net");
+user1.saveData("bhadreshgosai",".net");
 user1.getData();
