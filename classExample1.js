@@ -1,7 +1,7 @@
-function userClass(){
+function userClass(uname,tech){
     this.userName = "";
     this.userTech = "";
-    function saveData(uname, tech)
+    function saveData()
     {
         this.userName = uname;
         this.userTech = tech;
