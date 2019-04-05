@@ -1,17 +1,17 @@
-function userClass(uname,tech){
+function userClass(){
     this.userName = "";
     this.userTech = "";
-    function saveData()
+    this.saveData = function(uname,tech)
     {
         this.userName = uname;
         this.userTech = tech;
     }
-    function getData()
+    this.getData = function()
     {
         document.write(`my name is ${this.userName.toUpperCase()} and i am the technical expert on ${this.userTech.toUpperCase()} technology!`);
     }
 }
 
-var user1 = new userClass();
-user1.saveData("bhadreshgosai",".net");
+let user1 = new userClass();
+user1.saveData("bhadresh gosai","Asp.Net");
 user1.getData();
