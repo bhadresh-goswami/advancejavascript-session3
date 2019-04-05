@@ -1,7 +1,7 @@
 function userClass(){
     this.userName = "";
     this.userTech = "";
-    function setData(uname, tech)
+    function saveData(uname, tech)
     {
         this.userName = uname;
         this.userTech = tech;
@@ -13,5 +13,5 @@ function userClass(){
 }
 
 var user1 = new userClass();
-user1.setData("bhadresh gosai",".net");
+user1.saveData("bhadresh gosai",".net");
 user1.getData();
