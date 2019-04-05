@@ -8,7 +8,7 @@ function userClass(){
     }
     function getData()
     {
-        console.log(`my name is ${this.userName.toUpperCase()} and i am the technical expert on ${this.userTech.toUpperCase()} technology!`);
+        document.write(`my name is ${this.userName.toUpperCase()} and i am the technical expert on ${this.userTech.toUpperCase()} technology!`);
     }
 }
 
