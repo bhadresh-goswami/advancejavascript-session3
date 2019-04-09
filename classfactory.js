@@ -11,5 +11,5 @@ function PersonClass(name, birthday) {
     };
   }
   
-  let user = User("bhadresh gosai", new Date(1989, 17, 7));
+  let user = PersonClass("bhadresh gosai", new Date(1989, 17, 7));
   user.sayHi(); 
